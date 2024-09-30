@@ -4,8 +4,8 @@
 let a = 3
 let b = 5
 let c = 0
-let name = "Slay"
-let lastName = "James"
+let firstName = 'Slay'
+let lastName = 'James'
 let trafficLight = "red"
 
 function addition(){
@@ -27,8 +27,9 @@ function decrementB(){
   b = b - 1
 }
 function fullName(name, lastName){
-  return name + " " + lastName
+   firstName + '' + lastName
 }
+function lightChange()
 
 
 
